@@ -2,7 +2,9 @@
 
 Inspired by Atom's One Dark, and subsequent [One Dark Pro](https://github.com/Binaryify/OneDark-Pro) [variants](https://github.com/olimorris/onedarkpro.nvim/tree/main), circus_show attempts to preserve the colorful and easily distinguishable syntax highlighting with slight tweaks to improve readabililty and contrast.
 
-[ADD SCREENSHOT HERE]
+<img width="910" height="846" alt="image" src="https://github.com/user-attachments/assets/3ef5dc4c-7769-4ed1-aac8-151195c43918" />
+
+---
 The color scheme may not be comprehensive, so language servers/treesitter grammars that rely on less common tokens may not be fully handled. Not many plugins are supported either.
 
 Most things have been changed to one degree or another. To note a few:
@@ -12,7 +14,7 @@ Most things have been changed to one degree or another. To note a few:
     - Variables, properties and methods use different colors to highlight the difference between things like `foo.bar.do()` and `foo.bar.do`;
  - Status colors (e.g. diagnostics, git diff) often use a separate set of colors to better distinguish them compared to syntax highlighting;
 
-### Features
+## Features
  - Fully configurable palette;
  - Extensive palette, providing more than the common 16-color palette. The red you want to use for foreground highlights is most likely not the same you want to use for background highlights, so a variety of colors are made available;
  - To help maintaining uniformity with your own custom highlights, the palette circus_show is using can be easily obtained with `require("circus_show").get_colors()`, allowing you to only configure any color changes once.
