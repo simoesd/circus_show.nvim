@@ -233,7 +233,6 @@ vim.api.nvim_set_hl(0, "WinSeparator", { bg = base_colors.bg, fg = base_colors.g
 vim.api.nvim_set_hl(0, "WinBarNC", { bg = base_colors.bg, fg = base_colors.fg })
 vim.api.nvim_set_hl(0, "VisualNOS", { link = "Visual" })
 vim.api.nvim_set_hl(0, "Visual", { bg = base_colors.selection })
-vim.api.nvim_set_hl(0, "TermCursorNC", { bg = base_colors.gray })
 vim.api.nvim_set_hl(0, "TermCursor", { bg = base_colors.purple })
 vim.api.nvim_set_hl(0, "TabLineSel", { bg = base_colors.purple, fg = base_colors.bg })
 vim.api.nvim_set_hl(0, "TabLineFill", { bg = base_colors.bg, fg = base_colors.fg })
