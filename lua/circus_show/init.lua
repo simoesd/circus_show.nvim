@@ -18,7 +18,6 @@ local color_palette = {
     cyan = "#a6dbff",
     green = "#9edeaa",
     purple = "#af87d7",
-    electric_pink = "#D13472",
     magenta = "#d585d5",
     black = "#000000",
     red_bg = "#3c272f",
