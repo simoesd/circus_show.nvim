@@ -457,22 +457,6 @@ vim.api.nvim_set_hl(0, "Pmenu", { fg = base_colors.fg, bg = base_colors.picker_b
 vim.api.nvim_set_hl(0, "PmenuMatch", { fg = base_colors.orange, bold = true })
 vim.api.nvim_set_hl(0, "PmenuSel", { bg = base_colors.bg_light })
 
---- GitSigns
-vim.api.nvim_set_hl(0, "GitSignsDeleteInline", { bg = "#6f2e2d" })
-vim.api.nvim_set_hl(0, "GitSignsChangeInline", { bg = "#41483d" })
-vim.api.nvim_set_hl(0, "GitSignsAddInline", { bg = "#3f534f" })
-vim.api.nvim_set_hl(0, "GitSignsDeletePreview", { bg = "#502d30" })
-vim.api.nvim_set_hl(0, "GitSignsAddPreview", { bg = "#43554d" })
-vim.api.nvim_set_hl(0, "GitSignsUntrackedCursorLine", { fg = base_colors.blue })
-vim.api.nvim_set_hl(0, "GitSignsDeleteCursorLine", { fg = "#9a353d" })
-vim.api.nvim_set_hl(0, "GitSignsChangeCursorLine", { fg = "#948B60" })
-vim.api.nvim_set_hl(0, "GitSignsAddCursorLine", { fg = "#109868" })
-vim.api.nvim_set_hl(0, "GitSignsDelete", { fg = "#9a353d" })
-vim.api.nvim_set_hl(0, "GitSignsUntracked", { fg = base_colors.blue })
-vim.api.nvim_set_hl(0, "GitSignsAdd", { link = "Added" })
-vim.api.nvim_set_hl(0, "GitSignsChange", { link = "Changed" })
-vim.api.nvim_set_hl(0, "GitSignsRemoved", { link = "Removed" })
-
 --- Snacks
 vim.api.nvim_set_hl(0, "SnacksPickerBufFlags", { link = "SnacksPickerDir" })
 vim.api.nvim_set_hl(0, "SnacksPickerDir", { fg = base_colors.gray })
