@@ -446,7 +446,7 @@ vim.api.nvim_set_hl(0, "@comment.todo", { fg = base_colors.blue, bg = base_color
 vim.api.nvim_set_hl(0, "@comment.note", { fg = base_colors.cyan, bg = base_colors.blue_bg, bold = true })
 vim.api.nvim_set_hl(0, "@comment.warning", { fg = base_colors.yellow, bg = base_colors.red_bg, bold = true })
 vim.api.nvim_set_hl(0, "@comment.error", { fg = base_colors.red, bg = base_colors.red_bg, bold = true })
-vim.api.nvim_set_hl(0, "@markup.strikethrough", { fg = base_colors.neutral_gray })
+vim.api.nvim_set_hl(0, "@markup.strikethrough", { fg = base_colors.neutral_gray, strikethrough = true })
 vim.api.nvim_set_hl(0, "StatusLine", { bg = base_colors.bg_dark, fg = base_colors.fg })
 vim.api.nvim_set_hl(0, "WinBar", { bg = base_colors.bg_dark, fg = base_colors.fg })
 vim.api.nvim_set_hl(0, "FoldColumn", { fg = base_colors.mid_gray, bg = base_colors.picker_bg })
